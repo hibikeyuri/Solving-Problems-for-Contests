@@ -8,5 +8,7 @@ int main()
         A--;
         A--;
     printf("%d", A);
+    A << 2;
+    printf("%d", A);
     return 0;
 }
