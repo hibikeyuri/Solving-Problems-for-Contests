@@ -7,8 +7,10 @@ int main()
     else
         A--;
         A--;
-    printf("%d", A);
+    printf("%d\n", A);
     A << 2;
-    printf("%d", A);
+    printf("%d\n", A);
+    A << 2;
+    printf("%d\n", A);
     return 0;
 }
