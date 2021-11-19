@@ -12,5 +12,7 @@ int main()
     printf("%d\n", A);
     A << 2;
     printf("%d\n", A);
+    A >> 2;
+    printf("%d\n", A);
     return 0;
 }
