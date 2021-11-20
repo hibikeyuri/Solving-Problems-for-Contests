@@ -1,18 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int A = 5;
-    if(A>3)
-        A++;
-    else
-        A--;
-        A--;
-    printf("%d\n", A);
-    A << 2;
-    printf("%d\n", A);
-    A << 2;
-    printf("%d\n", A);
-    A >> 2;
-    printf("%d\n", A);
+    double x;
+    int n;
+    if(n == 0){
+        return 1;
+    }
+    if(n % 2 == 0){
+        return optimizedPow(x*x, n/2);
+    }
+    else{
+        return x * optimizedPow(x*x, n/2);
+    }
     return 0;
 }
