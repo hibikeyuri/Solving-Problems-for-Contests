@@ -1,4 +1,14 @@
 #include <stdio.h>
+
+double pow(double x, int n){
+    double answer = 1;
+    return answer;
+}
+
+double optimizedPow(double x, int n){
+    return 0;
+}
+
 int main()
 {
     double x;
