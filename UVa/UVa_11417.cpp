@@ -9,6 +9,10 @@ double optimizedPow(double x, int n){
     return 0;
 }
 
+double odst(){
+    return 0;
+}
+
 int main()
 {
     double x;
