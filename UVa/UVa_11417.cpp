@@ -13,6 +13,10 @@ double odst(){
     return 0;
 }
 
+double oni(){
+    return 0;
+}
+
 int main()
 {
     double x;
