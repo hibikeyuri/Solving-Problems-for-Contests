@@ -2,10 +2,12 @@
 
 int main()
 {
-    int a[100], b[100];
+    int a[100];
+    int b[100];
     int n = 0;
+    int q = 0;
     a[0] = 0;
-    for(int j=0; i<n; ++j){
+    for(int i=0; i<n; ++j){
         q = -100;
         for(int i=0; i<j; ++i){
             if(q < b[i] + a[j-i]){
@@ -14,6 +16,6 @@ int main()
         }
         a[j] = q;
     }
-    return b;
+    return b[0];
 }
 
